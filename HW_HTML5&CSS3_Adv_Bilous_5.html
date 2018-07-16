@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HW_HTML5&CSS3_Adv_Bilous_5</title>
+	<link rel="stylesheet" type="text/css" href="HW_HTML5&CSS3_Adv_Bilous_5.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="animate.css">
+	
+</head>
+<body>
+	<div class="pulsar"></div>
+	<header class="grid-menu">
+		<img class="logo wow fadeInLeft" src="logo2.png" alt="logo">
+		<ul class="main-menu grid-list">
+			<li class="menu-item">
+				<a href="#">Tickets</a>
+				<ul class="sub-menu">
+					<li class="menu-item wow fadeInLeft"><a href="#">Plane</a></li>
+					<li class="menu-item wow fadeInLeft"><a href="#">Train</a></li>
+					<li class="menu-item wow fadeInLeft"><a href="#">Bus</a></li>
+				</ul>
+			</li>
+			<li class="menu-item">
+				<a href="#">Place</a>
+				<ul class="sub-menu">
+					<li class="menu-item"s><a href="#">Vien</a></li>
+					<li class="menu-item"s><a href="#">Paris</a></li>
+					<li class="menu-item"s><a href="#">Berlin</a></li>
+					<li class="menu-item"s><a href="#">Montreux</a></li>
+				</ul>
+			</li>
+			<li class="menu-item"><i class="fa fa-search"><input id="search" class="search" type="text" placeholder="Search"></li></i>
+		</ul>
+	</header>
+	<div id="map" class="map_cont">
+	</div>
+	<script src="wow.min.js"></script>
+	<script>
+        new WOW().init();
+    </script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvt_3mYlfWErP_AYgxRvx-BGzx42j0GsA&callback=initMap"
+        async defer></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script src="HW_HTML5&CSS3_Adv_Bilous_5.js"></script>
+</body>
+</html>
